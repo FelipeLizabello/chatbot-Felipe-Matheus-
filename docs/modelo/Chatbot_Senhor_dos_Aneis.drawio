@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="casos" name="Casos de uso">
+    <mxGraphModel grid="0" guides="1" page="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Diagrama de casos de uso" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;fontSize=28;fontStyle=1;fontColor=#263c32;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="32" y="22" width="1080" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Chatbot sobre os livros de O Senhor dos Anéis" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;fontSize=16;fontColor=#52665b;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="32" y="65" width="1060" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="system" value="Chatbot literário" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;rounded=1;arcSize=2;strokeWidth=1.5;strokeColor=#92a896;fillColor=#f8faf7;verticalAlign=top;align=left;spacingTop=12;spacingLeft=16;fontSize=16;fontStyle=1;fontColor=#263c32;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="166" y="108" width="836" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor" value="Leitor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=center;strokeWidth=1.8;strokeColor=#263c32;fillColor=#ffffff;fontColor=#263c32;fontSize=15;fontStyle=1;spacingTop=6;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="65" y="337" width="40" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" value="Curador da base" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=center;strokeWidth=1.8;strokeColor=#263c32;fillColor=#ffffff;fontColor=#263c32;fontSize=15;fontStyle=1;spacingTop=6;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="1053" y="228" width="40" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ia" value="Serviço de IA" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=center;strokeWidth=1.8;strokeColor=#263c32;fillColor=#ffffff;fontColor=#263c32;fontSize=15;fontStyle=1;spacingTop=6;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="1053" y="455" width="40" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="iniciar" value="Iniciar conversa" style="ellipse;fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#35644a;fillColor=#eff6ef;fontColor=#263c32;fontSize=14;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="221" y="153" width="235" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="historico" value="Consultar histórico" style="ellipse;fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#35644a;fillColor=#eff6ef;fontColor=#263c32;fontSize=14;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="221" y="253" width="235" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="perguntar" value="Fazer pergunta sobre os livros" style="ellipse;fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#35644a;fillColor=#eff6ef;fontColor=#263c32;fontSize=14;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="221" y="353" width="235" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="fontes" value="Ver fontes da resposta" style="ellipse;fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#35644a;fillColor=#eff6ef;fontColor=#263c32;fontSize=14;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="221" y="453" width="235" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="avaliar" value="Avaliar resposta" style="ellipse;fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#35644a;fillColor=#eff6ef;fontColor=#263c32;fontSize=14;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="221" y="553" width="235" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="buscar" value="Buscar trechos na&lt;br&gt;base bibliográfica" style="ellipse;fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#35644a;fillColor=#eff6ef;fontColor=#263c32;fontSize=14;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="553" y="353" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gerar" value="Gerar resposta" style="ellipse;fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#35644a;fillColor=#eff6ef;fontColor=#263c32;fontSize=14;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="553" y="465" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="cadastrar" value="Cadastrar fonte" style="ellipse;fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#826127;fillColor=#fff9eb;fontColor=#263c32;fontSize=14;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="765" y="153" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="atualizar" value="Atualizar fonte" style="ellipse;fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#826127;fillColor=#fff9eb;fontColor=#263c32;fontSize=14;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="765" y="253" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="desativar" value="Desativar fonte" style="ellipse;fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#826127;fillColor=#fff9eb;fontColor=#263c32;fontSize=14;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="765" y="353" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor-iniciar" value="" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=1;exitY=0.23;entryX=0;entryY=0.5;" source="leitor" target="iniciar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor-historico" value="" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=1;exitY=0.39;entryX=0;entryY=0.5;" source="leitor" target="historico">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor-perguntar" value="" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=1;exitY=0.53;entryX=0;entryY=0.5;" source="leitor" target="perguntar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor-fontes" value="" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=1;exitY=0.68;entryX=0;entryY=0.5;" source="leitor" target="fontes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor-avaliar" value="" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=1;exitY=0.84;entryX=0;entryY=0.5;" source="leitor" target="avaliar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-cadastrar" value="" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=0;exitY=0.28;entryX=1;entryY=0.5;" source="admin" target="cadastrar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-atualizar" value="" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=0;exitY=0.54;entryX=1;entryY=0.5;" source="admin" target="atualizar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-desativar" value="" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=0;exitY=0.79;entryX=1;entryY=0.5;" source="admin" target="desativar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ia-gerar" value="" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=0;exitY=0.51;entryX=1;entryY=0.5;" source="ia" target="gerar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include-buscar" value="«include»" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;dashed=1;dashPattern=5 4;endArrow=open;endFill=0;fontSize=13;fontColor=#35644a;labelBackgroundColor=#f8faf7;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" source="perguntar" target="buscar">
+          <mxGeometry relative="1" as="geometry" x="0" y="12" />
+        </mxCell>
+        <mxCell id="include-gerar" value="«include»" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;dashed=1;dashPattern=5 4;endArrow=open;endFill=0;fontSize=13;fontColor=#35644a;labelBackgroundColor=#f8faf7;exitX=0.90;exitY=0.76;entryX=0;entryY=0.42;" source="perguntar" target="gerar">
+          <mxGeometry relative="1" as="geometry" x="0" y="13" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="classes" name="Classes de análise">
+    <mxGraphModel grid="0" guides="1" page="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Diagrama de classes de análise" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;fontSize=28;fontStyle=1;fontColor=#263c32;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="32" y="22" width="1080" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Chatbot sobre os livros de O Senhor dos Anéis" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;fontSize=16;fontColor=#52665b;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="32" y="65" width="1060" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor" value="Leitor" style="swimlane;horizontal=1;startSize=52;fontFamily=Helvetica;whiteSpace=wrap;html=1;rounded=0;strokeWidth=1.5;strokeColor=#35644a;fillColor=#e7f1e7;swimlaneFillColor=#ffffff;fontColor=#263c32;fontStyle=1;fontSize=17;collapsible=0;swimlaneLine=1;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="32" y="133" width="216" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor-atributos" value="&lt;div style=&quot;line-height:1.5&quot;&gt;nome: Texto&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=9;fontSize=14;fontColor=#263c32;" vertex="1" connectable="0" parent="leitor">
+          <mxGeometry x="0" y="52" width="216" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="conversa" value="Conversa" style="swimlane;horizontal=1;startSize=52;fontFamily=Helvetica;whiteSpace=wrap;html=1;rounded=0;strokeWidth=1.5;strokeColor=#35644a;fillColor=#e7f1e7;swimlaneFillColor=#ffffff;fontColor=#263c32;fontStyle=1;fontSize=17;collapsible=0;swimlaneLine=1;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="328" y="133" width="216" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="conversa-atributos" value="&lt;div style=&quot;line-height:1.5&quot;&gt;iniciadaEm: DataHora&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=9;fontSize=14;fontColor=#263c32;" vertex="1" connectable="0" parent="conversa">
+          <mxGeometry x="0" y="52" width="216" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="pergunta" value="Pergunta" style="swimlane;horizontal=1;startSize=52;fontFamily=Helvetica;whiteSpace=wrap;html=1;rounded=0;strokeWidth=1.5;strokeColor=#35644a;fillColor=#e7f1e7;swimlaneFillColor=#ffffff;fontColor=#263c32;fontStyle=1;fontSize=17;collapsible=0;swimlaneLine=1;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="624" y="133" width="216" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="pergunta-atributos" value="&lt;div style=&quot;line-height:1.5&quot;&gt;texto: Texto&lt;br&gt;enviadaEm: DataHora&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=9;fontSize=14;fontColor=#263c32;" vertex="1" connectable="0" parent="pergunta">
+          <mxGeometry x="0" y="52" width="216" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="resposta" value="Resposta" style="swimlane;horizontal=1;startSize=52;fontFamily=Helvetica;whiteSpace=wrap;html=1;rounded=0;strokeWidth=1.5;strokeColor=#35644a;fillColor=#e7f1e7;swimlaneFillColor=#ffffff;fontColor=#263c32;fontStyle=1;fontSize=17;collapsible=0;swimlaneLine=1;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="920" y="133" width="216" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="resposta-atributos" value="&lt;div style=&quot;line-height:1.5&quot;&gt;texto: Texto&lt;br&gt;geradaEm: DataHora&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=9;fontSize=14;fontColor=#263c32;" vertex="1" connectable="0" parent="resposta">
+          <mxGeometry x="0" y="52" width="216" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="feedback" value="Feedback" style="swimlane;horizontal=1;startSize=52;fontFamily=Helvetica;whiteSpace=wrap;html=1;rounded=0;strokeWidth=1.5;strokeColor=#35644a;fillColor=#e7f1e7;swimlaneFillColor=#ffffff;fontColor=#263c32;fontStyle=1;fontSize=17;collapsible=0;swimlaneLine=1;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="328" y="374" width="216" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="feedback-atributos" value="&lt;div style=&quot;line-height:1.5&quot;&gt;util: Booleano&lt;br&gt;comentario: Texto [0..1]&lt;br&gt;registradoEm: DataHora&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=9;fontSize=14;fontColor=#263c32;" vertex="1" connectable="0" parent="feedback">
+          <mxGeometry x="0" y="52" width="216" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fonte" value="FonteBibliográfica" style="swimlane;horizontal=1;startSize=52;fontFamily=Helvetica;whiteSpace=wrap;html=1;rounded=0;strokeWidth=1.5;strokeColor=#35644a;fillColor=#e7f1e7;swimlaneFillColor=#ffffff;fontColor=#263c32;fontStyle=1;fontSize=17;collapsible=0;swimlaneLine=1;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="920" y="374" width="216" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="fonte-atributos" value="&lt;div style=&quot;line-height:1.5&quot;&gt;titulo: Texto&lt;br&gt;autor: Texto&lt;br&gt;ativa: Booleano&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=9;fontSize=14;fontColor=#263c32;" vertex="1" connectable="0" parent="fonte">
+          <mxGeometry x="0" y="52" width="216" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="citacao" value="&lt;span style=&quot;font-weight:normal;font-size:13px&quot;&gt;«classe de associação»&lt;/span&gt;&lt;br&gt;Citação" style="swimlane;horizontal=1;startSize=52;fontFamily=Helvetica;whiteSpace=wrap;html=1;rounded=0;strokeWidth=1.5;strokeColor=#826127;fillColor=#fff5da;swimlaneFillColor=#ffffff;fontColor=#263c32;fontStyle=1;fontSize=17;collapsible=0;swimlaneLine=1;" vertex="1" connectable="1" parent="1">
+          <mxGeometry x="624" y="293" width="216" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="citacao-atributos" value="&lt;div style=&quot;line-height:1.5&quot;&gt;capitulo: Texto&lt;br&gt;pagina: Inteiro [0..1]&lt;br&gt;trecho: Texto&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=9;fontSize=14;fontColor=#263c32;" vertex="1" connectable="0" parent="citacao">
+          <mxGeometry x="0" y="52" width="216" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="abre" value="inicia" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=13;fontColor=#263c32;" source="leitor" target="conversa">
+          <mxGeometry relative="1" as="geometry" x="0" y="16" />
+        </mxCell>
+        <mxCell id="abre-a" value="1" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="250" y="203" width="37" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="abre-b" value="0..*" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="289" y="203" width="37" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="contem" value="contém" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=13;fontColor=#263c32;" source="conversa" target="pergunta">
+          <mxGeometry relative="1" as="geometry" x="0" y="16" />
+        </mxCell>
+        <mxCell id="contem-a" value="1" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="546" y="203" width="37" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="contem-b" value="0..*" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="585" y="203" width="37" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="gera" value="gera" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=13;fontColor=#263c32;" source="pergunta" target="resposta">
+          <mxGeometry relative="1" as="geometry" x="0" y="16" />
+        </mxCell>
+        <mxCell id="gera-a" value="1" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="842" y="203" width="37" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="gera-b" value="0..1" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="881" y="203" width="37" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="avalia" value="envia" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0;entryY=0.5;fontSize=13;" source="leitor" target="feedback">
+          <mxGeometry relative="1" as="geometry" x="0.15" y="-12" />
+        </mxCell>
+        <mxCell id="avalia-a" value="1" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="148" y="267" width="32" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="avalia-b" value="0..*" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="278" y="445" width="45" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="recebe" value="recebe" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.72;entryX=0.5;entryY=1;fontSize=13;" source="resposta" target="feedback">
+          <mxGeometry relative="1" as="geometry" x="0" y="15">
+            <Array as="points">
+              <mxPoint x="1205" y="231" />
+              <mxPoint x="1205" y="559" />
+              <mxPoint x="436" y="559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recebe-a" value="1" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1141" y="233" width="27" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="recebe-b" value="0..*" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="442" y="519" width="40" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cita" value="cita" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=13;fontColor=#263c32;" source="resposta" target="fonte">
+          <mxGeometry relative="1" as="geometry" x="0" y="22" />
+        </mxCell>
+        <mxCell id="cita-a" value="0..*" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1035" y="268" width="44" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cita-b" value="0..*" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;html=1;fontSize=14;fontColor=#263c32;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1035" y="353" width="44" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="associacao-citacao" value="" parent="1" edge="1" style="fontFamily=Helvetica;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#52665b;endArrow=none;exitX=1;exitY=0.20588;dashed=1;dashPattern=5 4;strokeColor=#826127;" source="citacao">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1028" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
